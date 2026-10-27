@@ -1,0 +1,31 @@
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Arquivos gerados pelo backend
+cache/
+*.mp3
+*.m4a
+*.webm
+*.part
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Cópia de segurança local (não publicar)
+_backup_original/
